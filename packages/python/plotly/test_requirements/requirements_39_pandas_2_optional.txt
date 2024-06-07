@@ -22,3 +22,5 @@ kaleido
 vaex
 pydantic<=1.10.11 # for vaex, see https://github.com/vaexio/vaex/issues/2384
 polars
+jupyter-server>=2.14.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
